@@ -1,0 +1,49 @@
+
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    padding: 20px; /* Added padding for better spacing */
+}
+
+h1, h2 {
+    color: #00db12;
+}
+
+a {
+    
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #979696; /* Darker color on hover */
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: background-color 0.3s; /* Added a smooth transition */
+}
+
+a:hover {
+    background-color: #000000; /* Darker color on hover */
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px; /* Increased padding for table cells */
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #555; /* Darkened even row background color */
+}
